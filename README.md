@@ -1,16 +1,39 @@
 # my_image_widget
 
-A new Flutter project.
+Simple way to display Image in Flutter
 
-## Getting Started
+## Output
 
-This project is a starting point for a Flutter application.
+![imag_wid](https://user-images.githubusercontent.com/51211116/146495744-db0068eb-d520-407e-971c-a0989424b2b4.png)
 
-A few resources to get you started if this is your first Flutter project:
+## CODE : 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[MyImage.dart](https://github.com/mbganesh/ImageWidgetFlutter/blob/main/lib/MyImage.dart)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+### ASSET
+```
+
+ Image.asset(
+            image1,         //  asset path
+            height: 400,
+            width: 250,
+            fit: BoxFit.cover,
+          ),
+          
+```
+
+### NETWORK
+```
+
+   Image.network(
+            src,         //  image url
+            height: 150,
+            width: 150,
+          ),
+          
+```
+
+
+
